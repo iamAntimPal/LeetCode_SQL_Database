@@ -1,16 +1,6 @@
 
-Code
-Testcase
-Test Result
-Test Result
 1378. Replace Employee ID With The Unique Identifier
-Solved
-Easy
-Topics
-Companies
-SQL Schema
-Pandas Schema
-Table: Employees
+
 
 +---------------+---------+
 | Column Name   | Type    |
