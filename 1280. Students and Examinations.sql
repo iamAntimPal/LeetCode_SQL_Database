@@ -1,3 +1,5 @@
+/*
+
 +---------------+---------+
 | Column Name   | Type    |
 +---------------+---------+
@@ -99,7 +101,7 @@ Alice attended the Math exam 3 times, the Physics exam 2 times, and the Programm
 Bob attended the Math exam 1 time, the Programming exam 1 time, and did not attend the Physics exam.
 Alex did not attend any exams.
 John attended the Math exam 1 time, the Physics exam 1 time, and the Programming exam 1 time.
-
+*/
 # Write your MySQL query statement below
 
 # Solution 1

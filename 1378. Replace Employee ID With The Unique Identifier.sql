@@ -1,7 +1,7 @@
 
 1378. Replace Employee ID With The Unique Identifier
 
-
+/****************************************************************
 +---------------+---------+
 | Column Name   | Type    |
 +---------------+---------+
@@ -69,7 +69,18 @@ The unique ID of Meir is 2.
 The unique ID of Winston is 3.
 The unique ID of Jonathan is 1.
 
+*/
+# Write your MySQL query statement below
 
+SELECT e.id AS unique_id, e.name
+FROM Employees e
+LEFT JOIN EmployeeUNI eu
+ON e.id = eu.id
+ORDER BY e.id;
+
+
+
+# Write your MySQL query statement below
 SELECT unique_id, name
 FROM Employees e
 LEFT JOIN EmployeeUNI eu

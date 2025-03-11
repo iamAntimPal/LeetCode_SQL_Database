@@ -1,4 +1,5 @@
 595. Big Countries
+/********************************
 # Write your MySQL query statement below
 SQL Schema
 Pandas Schema
@@ -49,6 +50,8 @@ Output:
 | Afghanistan | 25500100   | 652230  |
 | Algeria     | 37100000   | 2381741 |
 +-------------+------------+---------+
+
+*/
 
 # Write your MySQL query statement below
 SELECT name, population, area FROM world WHERE area > 3000000

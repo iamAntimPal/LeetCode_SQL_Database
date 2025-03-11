@@ -1,4 +1,5 @@
 584. Find Customer Referee
+/*----------------------------------------------------------------
 SQL Schema
 Table: Customer
 
@@ -44,6 +45,8 @@ Output:
 | Bill |
 | Zack |
 +------+
+
+*/
 
 # Write your MySQL query statement below
 select name

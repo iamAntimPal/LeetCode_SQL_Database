@@ -1,5 +1,5 @@
 1148. Article Views I
-
+/********************************
 SQL Schema
 Pandas Schema
 Table: Views
@@ -54,7 +54,7 @@ Explanation:
 7 has not viewed article 1.
  
 
-
+*/
 -- Write your MySQL query statement below
 SELECT DISTINCT author_id AS id
   FROM Views
@@ -63,12 +63,3 @@ SELECT DISTINCT author_id AS id
 
 
 
-1149. Article Views II
-SQL Schema
-Pandas Schema
-Table: Views
-
-+---------------+---------+
-| Column Name   | Type    |
-+---------------+---------+
-| article_id    | int     |
