@@ -1,4 +1,4 @@
-<img src="img/SQL.jpeg">
+<center><img src="img/SQL.jpeg"></center>
 
 # LeetCode_SQL_Database
 
@@ -10,8 +10,9 @@ This repo contains my SQL solutions for LeetCode problems. Each file includes a 
 
 <img src="img/leetcode-sql.png">
 This repository contains my solutions to SQL problems from LeetCode. Each solution is implemented using MySQL and aims to demonstrate efficient and optimal approaches to solve common database-related challenges.
-
+<center>
 <img src="img/work.jpeg">
+</center>
 
 ## Repository Structure:-
 
