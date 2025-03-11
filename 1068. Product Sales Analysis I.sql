@@ -1,3 +1,4 @@
+/*
 1068. Product Sales Analysis I
 Solved
 Easy
@@ -75,7 +76,7 @@ From sale_id = 2, we can conclude that Nokia was sold for 5000 in the year 2009.
 From sale_id = 7, we can conclude that Apple was sold for 9000 in the year 2011.
 
 
-
+*/
 # Write your MySQL query statement below
 
 SELECT p.product_name, s.year, s.price
