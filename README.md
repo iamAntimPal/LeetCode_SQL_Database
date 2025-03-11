@@ -9,7 +9,7 @@ This repo contains my SQL solutions for LeetCode problems. Each file includes a 
 <img src="img/salution.png">
 This repository contains my solutions to SQL problems from LeetCode. Each solution is implemented using MySQL and aims to demonstrate efficient and optimal approaches to solve common database-related challenges.
 
-<img src="img/leetcodecode.jpeg">
+<img src="img/work.jpeg">
 
 ## Repository Structure:-
 
