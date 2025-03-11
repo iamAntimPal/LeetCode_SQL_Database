@@ -4,9 +4,11 @@
 
 This repo contains my SQL solutions for LeetCode problems. Each file includes a problem description, optimized SQL query, and explanations. The goal is to improve SQL skills, share knowledge, and collaborate. Feel free to explore, suggest improvements, or contribute! 🚀
 
+<img src="img/leetcode me.png">
+
 ## LeetCode SQL Solutions:-
 
-<img src="img/salution.png">
+<img src="img/leetcode-sql.png">
 This repository contains my solutions to SQL problems from LeetCode. Each solution is implemented using MySQL and aims to demonstrate efficient and optimal approaches to solve common database-related challenges.
 
 <img src="img/work.jpeg">
