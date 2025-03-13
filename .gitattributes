@@ -1,2 +1,7 @@
 *.sql linguist-detectable=true
 *.sql linguist-language=SQL
+
+
+*.md linguist-vendored
+*.json linguist-vendored
+*.py linguist-vendored

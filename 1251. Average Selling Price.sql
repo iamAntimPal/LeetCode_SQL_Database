@@ -75,10 +75,12 @@ Average selling price for product 2 = ((200 * 15) + (30 * 30)) / 230 = 16.96
 Note that the average selling price is 0 if the product was not sold.
 
 # Write your MySQL query statement below
-SELECT a.product_id,ROUND(SUM(b.units*a.price)/SUM(b.units),2) as average_price
-FROM Prices as a
-JOIN UnitsSold as b
-ON a.product_id=b.product_id AND (b.purchase_date BETWEEN a.start_date AND a.end_date)
-GROUP BY product_id;
 
+# Write your MySQL query statement below
+SELECT p.product_id, IFNULL(round(SUM(p.price*u.units)/sum(u.units),2),0) as average_price
+FROM Prices p 
+LEFT JOIN UnitsSold u
+ON p.product_id = u.product_id AND 
+u.purchase_date BETWEEN p.Start_date and p.end_date
+GROUP BY p.product_id
 -- SELECT product_id, ROUND(AVG(COALESCE(price, 0)), 2) AS average_price
