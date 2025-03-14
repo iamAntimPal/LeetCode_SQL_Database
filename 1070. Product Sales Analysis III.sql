@@ -1,10 +1,5 @@
 1070. Product Sales Analysis III
-Medium
-Topics
-Companies
-SQL Schema
-Pandas Schema
-Table: Sales
+
 
 +-------------+-------+
 | Column Name | Type  |
