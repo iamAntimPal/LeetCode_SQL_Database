@@ -58,3 +58,18 @@ Explanation: The folowing table is ordered by the turn for simplicity.
 | 5    | 4  | Bob       | 175    | ___          |
 | 6    | 1  | Winston   | 500    | ___          |
 +------+----+-----------+--------+--------------+
+
+
+
+# Write your MySQL query statement below
+SELECT a.person_name
+FROM
+    Queue AS a,
+    Queue AS b
+WHERE a.turn >= b.turn
+GROUP BY a.person_id
+HAVING SUM(b.weight) <= 1000
+ORDER BY a.turn DESC
+LIMIT 1;
+
+
