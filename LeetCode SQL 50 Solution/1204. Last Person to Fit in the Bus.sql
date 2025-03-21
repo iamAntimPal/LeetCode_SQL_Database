@@ -73,3 +73,76 @@ ORDER BY a.turn DESC
 LIMIT 1;
 
 
+Let's break down the query step by step to understand what it does:
+
+---
+
+### 1. Self-Join of the Table
+
+```sql
+FROM
+    Queue AS a,
+    Queue AS b
+WHERE a.turn >= b.turn
+```
+
+- **Self-Join:**  
+  The query treats the `Queue` table as two separate aliases: `a` and `b`. This is a self-join, meaning each row in `a` is paired with rows in `b`.
+
+- **Join Condition (`a.turn >= b.turn`):**  
+  For each row in alias `a`, the query pairs it with every row in alias `b` that has a `turn` value less than or equal to `a.turn`.  
+  - **Purpose:** This setup is used to accumulate data from the start of the queue up to the current person's turn.
+
+---
+
+### 2. Grouping by Person
+
+```sql
+GROUP BY a.person_id
+```
+
+- **Grouping:**  
+  The query groups the resulting joined rows by `a.person_id`.  
+  - **Effect:** For each person in the queue (represented by alias `a`), all rows (from `b`) where `b.turn` is less than or equal to `a.turn` are aggregated together.
+
+---
+
+### 3. Calculating the Cumulative Weight
+
+```sql
+HAVING SUM(b.weight) <= 1000
+```
+
+- **Cumulative Sum:**  
+  Within each group, the query calculates the sum of `b.weight`.  
+  - **Condition:** The `HAVING` clause filters out groups where the cumulative weight (i.e., the sum of weights from the start of the queue up to the current person's turn) exceeds 1000.
+  - **Interpretation:** Only those persons for whom the cumulative weight of all people before and including them is **less than or equal to 1000** are kept.
+
+---
+
+### 4. Selecting the Result
+
+```sql
+SELECT a.person_name
+```
+
+- **Result Column:**  
+  After filtering, the query selects the `person_name` from alias `a` for each group that passed the `HAVING` condition.
+
+---
+
+### 5. Ordering and Limiting the Result
+
+```sql
+ORDER BY a.turn DESC
+LIMIT 1;
+```
+
+- **Ordering:**  
+  The results are ordered by `a.turn` in descending order.  
+  - **Purpose:** This ensures that among all persons whose cumulative weight is ≤ 1000, the one with the **latest (highest) turn** is at the top.
+  
+- **Limiting:**  
+  The `LIMIT 1` clause restricts the output to only the top result, effectively returning **one person**.
+
+---
