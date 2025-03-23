@@ -1,11 +1,5 @@
 585. Investments in 2016
-Solved
-Medium
-Topics
-Companies
-Hint
-SQL Schema
-Pandas Schema
+"""
 Table: Insurance
 
 +-------------+-------+
@@ -59,3 +53,18 @@ The tiv_2015 value 10 is the same as the third and fourth records, and its locat
 
 The second record does not meet any of the two criteria. Its tiv_2015 is not like any other policyholders and its location is the same as the third record, which makes the third record fail, too.
 So, the result is the sum of tiv_2016 of the first and last record, which is 45.
+
+"""
+
+WITH
+  InsuranceWithCounts AS (
+    SELECT
+      tiv_2016,
+      COUNT(*) OVER(PARTITION by tiv_2015) AS tiv_2015_count,
+      COUNT(*) OVER(PARTITION by lat, lon) AS city_count
+    FROM Insurance
+  )
+SELECT ROUND(SUM(tiv_2016), 2) AS tiv_2016
+FROM InsuranceWithCounts
+WHERE tiv_2015_count > 1
+  AND city_count = 1;
