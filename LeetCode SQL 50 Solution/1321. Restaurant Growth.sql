@@ -66,3 +66,42 @@ Explanation:
 4th moving average from 2019-01-04 to 2019-01-10 has an average_amount of (130 + 110 + 140 + 150 + 80 + 110 + 130 + 150)/7 = 142.86
 
 
+Solution 1:
+
+# Write your MySQL query statement below
+WITH
+    t AS (
+        SELECT
+            visited_on,
+            SUM(amount) OVER (
+                ORDER BY visited_on
+                ROWS 6 PRECEDING
+            ) AS amount,
+            RANK() OVER (
+                ORDER BY visited_on
+                ROWS 6 PRECEDING
+            ) AS rk
+        FROM
+            (
+                SELECT visited_on, SUM(amount) AS amount
+                FROM Customer
+                GROUP BY visited_on
+            ) AS tt
+    )
+SELECT visited_on, amount, ROUND(amount / 7, 2) AS average_amount
+FROM t
+WHERE rk > 6;
+
+
+Solution 2:
+# Write your MySQL query statement below
+SELECT
+    a.visited_on,
+    SUM(b.amount) AS amount,
+    ROUND(SUM(b.amount) / 7, 2) AS average_amount
+FROM
+    (SELECT DISTINCT visited_on FROM customer) AS a
+    JOIN customer AS b ON DATEDIFF(a.visited_on, b.visited_on) BETWEEN 0 AND 6
+WHERE a.visited_on >= (SELECT MIN(visited_on) FROM customer) + 6
+GROUP BY 1
+ORDER BY 1;
