@@ -1,10 +1,5 @@
 1341. Movie Rating
-Solved
-Medium
-Topics
-Companies
-SQL Schema
-Pandas Schema
+"""
 Table: Movies
 
 +---------------+---------+
@@ -95,4 +90,26 @@ Explanation:
 Daniel and Monica have rated 3 movies ("Avengers", "Frozen 2" and "Joker") but Daniel is smaller lexicographically.
 Frozen 2 and Joker have a rating average of 3.5 in February but Frozen 2 is smaller lexicographically.
 
+"""
 
+# Write your MySQL query statement below
+(
+    SELECT name AS results
+    FROM
+        Users
+        JOIN MovieRating USING (user_id)
+    GROUP BY user_id
+    ORDER BY COUNT(1) DESC, name
+    LIMIT 1
+)
+UNION ALL
+(
+    SELECT title
+    FROM
+        MovieRating
+        JOIN Movies USING (movie_id)
+    WHERE DATE_FORMAT(created_at, '%Y-%m') = '2020-02'
+    GROUP BY movie_id
+    ORDER BY AVG(rating) DESC, title
+    LIMIT 1
+);
