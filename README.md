@@ -43,3 +43,16 @@ Problem 3: Description of the problem and the SQL solution.
 ### Contributing:-
 
 Feel free to fork this repository, suggest improvements, or submit your own solutions via pull requests. Let's learn and grow together!
+
+
+### Progress
+<progress value="75" max="100"></progress>
+### Progress
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 75%
+
+
+
+update-date.yml
+
+
+## Last Updated: 2023-10-25
