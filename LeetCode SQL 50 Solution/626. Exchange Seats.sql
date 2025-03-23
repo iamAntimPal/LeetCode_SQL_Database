@@ -51,5 +51,15 @@ Output:
 +----+---------+
 Explanation: 
 Note that if the number of students is odd, there is no need to change the last one's seat.
+'''
 
+# MYSQL Query Accepted
 
+SELECT ( CASE
+            WHEN id%2 != 0 AND id != counts THEN id+1
+            WHEN id%2 != 0 AND id = counts THEN id
+            ELSE id-1
+        END) AS id, student
+FROM seat, (select count(*) as counts from seat) 
+AS seat_counts
+ORDER BY id ASC
