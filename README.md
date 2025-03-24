@@ -47,7 +47,7 @@ Feel free to fork this repository, suggest improvements, or submit your own solu
 ## Solved LeetCode SQL 50 Question
 
 <img src="./img/sql 50.gif">
-<img src="./img/sql50.png">
+<img height="200px" src="./img/sql50.png">
 
 ### Progress
 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 75%
