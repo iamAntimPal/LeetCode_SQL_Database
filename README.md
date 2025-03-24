@@ -45,6 +45,7 @@ Problem 3: Description of the problem and the SQL solution.
 Feel free to fork this repository, suggest improvements, or submit your own solutions via pull requests. Let's learn and grow together!
 
 ## Solved LeetCode SQL 50 Question
+
 <img src="./img/sql 50.gif">
 
 ### Progress
