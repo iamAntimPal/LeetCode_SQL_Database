@@ -68,7 +68,6 @@ We love to see innovative and creative solutions! This section is dedicated to s
 - **Discussion:**  
   Engage with others by discussing alternative approaches or asking questions in the issue tracker or PR comments. Your input can help refine the solution and inspire further improvements.
 
-*Feel free to update this section with new highlights, alternative methods, or breakthrough approaches that push the boundaries of problem-solving.*
 
 ---
 
@@ -82,7 +81,6 @@ We love to see innovative and creative solutions! This section is dedicated to s
   2. Once your PR is merged, send an email with your GitHub username and Gmail address to **optimismeducator@gmail.com**.
   3. Your details will be added to the "Impressive Contributions & Highlights" section for that challenge.
 
-This process helps build an active community and rewards creativity and excellence.
 
 ---
 
