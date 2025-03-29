@@ -1,7 +1,3 @@
-Below is a structured README.md snippet for **LeetCode 602: Friend Requests II: Who Has the Most Friends**. It includes the problem statement, example, solution approaches (SQL and Pandas), file structure, and useful links.
-
----
-
 # **602. Friend Requests II: Who Has the Most Friends**
 
 ## **Problem Statement**
@@ -123,7 +119,3 @@ LeetCode602/
 - [SQL UNION ALL Documentation](https://www.w3schools.com/sql/sql_union.asp)
 - [Pandas concat Documentation](https://pandas.pydata.org/docs/reference/api/pandas.concat.html)
 - [Pandas groupby Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)
-
----
-
-This structured format provides a comprehensive overview of the problem along with multiple solution approaches. Happy coding! 🚀
