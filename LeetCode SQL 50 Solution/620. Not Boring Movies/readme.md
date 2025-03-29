@@ -1,5 +1,3 @@
-
-
 # **620. Not Boring Movies**
 
 ## **Problem Statement**
