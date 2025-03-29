@@ -1,6 +1,4 @@
-Below is the structured README.md file for **LeetCode 585: Investments in 2016**, including the problem statement, example, solution approaches (SQL and Pandas), file structure, and useful links.
 
----
 
 # **585. Investments in 2016**
 
@@ -141,7 +139,3 @@ LeetCode585/
 - [SQL Window Functions](https://www.w3schools.com/sql/sql_window.asp)
 - [Pandas GroupBy Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)
 - [Pandas Transform Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.transform.html)
-
----
-
-This structured format provides a clear overview of the problem and multiple solution approaches. Happy coding! 🚀
