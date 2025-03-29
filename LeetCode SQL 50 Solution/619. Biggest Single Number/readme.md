@@ -1,7 +1,3 @@
-Below is the structured README.md snippet for **LeetCode 619: Biggest Single Number**, including the problem statement, example, solution approaches (SQL and Pandas), file structure, and useful links.
-
----
-
 # **619. Biggest Single Number**
 
 ## **Problem Statement**
