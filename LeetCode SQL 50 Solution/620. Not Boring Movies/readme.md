@@ -1,6 +1,4 @@
-Below is a structured README.md snippet for **LeetCode 620: Not Boring Movies**, including the problem statement, example, solution approaches (SQL and Pandas), file structure, and useful links.
 
----
 
 # **620. Not Boring Movies**
 
@@ -119,6 +117,3 @@ LeetCode620/
 - [SQL WHERE Clause Documentation](https://www.w3schools.com/sql/sql_where.asp)
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
 
----
-
-This structured format provides a clear understanding of the problem and offers both SQL and Pandas solutions. Happy coding! 🚀
