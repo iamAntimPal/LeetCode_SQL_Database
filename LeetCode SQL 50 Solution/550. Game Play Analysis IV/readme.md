@@ -1,14 +1,10 @@
-Here’s the structured format for **LeetCode 550: Game Play Analysis IV**:
-
----
-
 # **550. Game Play Analysis IV**
 
 ## **Problem Statement**
 You are given a table named `Activity`, which logs the gaming activity of players.
 
 ### **Activity Table**
-```
+```rb
 +--------------+---------+
 | Column Name  | Type    |
 +--------------+---------+
@@ -32,7 +28,7 @@ Find the **fraction** of players who logged in **again** the day after their **f
 ## **Example 1:**
 ### **Input:**
 #### **Activity Table**
-```
+```rb
 +-----------+-----------+------------+--------------+
 | player_id | device_id | event_date | games_played |
 +-----------+-----------+------------+--------------+
@@ -44,7 +40,7 @@ Find the **fraction** of players who logged in **again** the day after their **f
 +-----------+-----------+------------+--------------+
 ```
 ### **Output:**
-```
+```rb
 +-----------+
 | fraction  |
 +-----------+
@@ -166,7 +162,3 @@ def game_play_analysis(activity: pd.DataFrame) -> pd.DataFrame:
 - [LeetCode Problem 550](https://leetcode.com/problems/game-play-analysis-iv/)
 - [SQL `DATEDIFF()`](https://www.w3schools.com/sql/func_mysql_datediff.asp)
 - [Pandas `.groupby()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)
-
----
-
-This structured format provides **clear problem understanding and efficient solutions**. 🚀
