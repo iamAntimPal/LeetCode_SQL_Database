@@ -7,7 +7,7 @@ Table: Activity
 +--------------+---------+
 | player_id    | int     |
 | device_id    | int     |
-| event_date   | date    |
+-- | event_date   | date    |
 | games_played | int     |
 +--------------+---------+
 (player_id, event_date) is the primary key (combination of columns with unique values) of this table.
