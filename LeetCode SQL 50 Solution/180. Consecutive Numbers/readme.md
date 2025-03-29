@@ -1,85 +1,95 @@
 # 180. Consecutive Numbers
 
 ## Problem Statement
-Table: `Logs`
+You are given a table `Logs` with the following structure:
 
+```
++-------------+---------+
 | Column Name | Type    |
-| ----------- | ------- |
++-------------+---------+
 | id          | int     |
 | num         | varchar |
-
-- `id` is the primary key (auto-incremented starting from 1).
++-------------+---------+
+```
+- `id` is the primary key and auto-increments starting from 1.
 - Find all numbers that appear **at least three times consecutively**.
 - Return the result table in **any order**.
 
-### Example 1:
+## Example 1:
 
-#### Input:
-| id  | num |
-| --- | --- |
-| 1   | 1   |
-| 2   | 1   |
-| 3   | 1   |
-| 4   | 2   |
-| 5   | 1   |
-| 6   | 2   |
-| 7   | 2   |
+**Input:**
 
-#### Output:
-| ConsecutiveNums |
-| --------------- |
-| 1               |
-
----
-
-## Solution
-
-```sql
-SELECT DISTINCT num AS ConsecutiveNums
-FROM Logs l1
-JOIN Logs l2 ON l1.id = l2.id - 1
-JOIN Logs l3 ON l2.id = l3.id - 1
-WHERE l1.num = l2.num AND l2.num = l3.num;
+```
+Logs table:
++----+-----+
+| id | num |
++----+-----+
+| 1  | 1   |
+| 2  | 1   |
+| 3  | 1   |
+| 4  | 2   |
+| 5  | 1   |
+| 6  | 2   |
+| 7  | 2   |
++----+-----+
 ```
 
-### Explanation:
-- We use **self-joins** to check three consecutive rows where `num` values are the same.
-- `l1`, `l2`, and `l3` represent three consecutive rows.
-- The condition `l1.num = l2.num AND l2.num = l3.num` ensures that we only select numbers appearing at least three times consecutively.
-- `DISTINCT` ensures we don't get duplicate results.
+**Output:**
+
+```
++-----------------+
+| ConsecutiveNums |
++-----------------+
+| 1               |
++-----------------+
+```
 
 ---
 
-## Alternative Approach using `LAG()` (MySQL 8+)
+## Solution Approaches
 
+### **SQL Solution (Using Self Join)**
 ```sql
-WITH Consecutive AS (
-    SELECT num,
-           LAG(num, 1) OVER (ORDER BY id) AS prev1,
-           LAG(num, 2) OVER (ORDER BY id) AS prev2
-    FROM Logs
-)
+SELECT DISTINCT l1.num AS ConsecutiveNums
+FROM Logs l1
+JOIN Logs l2 ON l1.id = l2.id - 1 AND l1.num = l2.num
+JOIN Logs l3 ON l1.id = l3.id - 2 AND l1.num = l3.num;
+```
+
+### **SQL Solution (Using Window Functions)**
+```sql
 SELECT DISTINCT num AS ConsecutiveNums
-FROM Consecutive
+FROM (
+    SELECT num, LAG(num,1) OVER (ORDER BY id) AS prev1,
+                LAG(num,2) OVER (ORDER BY id) AS prev2
+    FROM Logs
+) temp
 WHERE num = prev1 AND num = prev2;
 ```
 
-### Explanation:
-- We use the `LAG()` function to check the previous two rows for the same `num` value.
-- If a `num` matches with its two previous values, it qualifies as a **consecutive number appearing at least three times**.
+### **Pandas Solution**
+```python
+import pandas as pd
+
+def consecutive_numbers(logs: pd.DataFrame) -> pd.DataFrame:
+    logs['prev1'] = logs['num'].shift(1)
+    logs['prev2'] = logs['num'].shift(2)
+    
+    result = logs[(logs['num'] == logs['prev1']) & (logs['num'] == logs['prev2'])]
+    return pd.DataFrame({'ConsecutiveNums': result['num'].unique()})
+```
 
 ---
+
 
 ## File Structure
-
 ```
-📂 ConsecutiveNumbers
- ├── 📄 README.md  # Problem statement, approach, and solutions
- ├── 📄 consecutive_numbers.sql  # SQL solution
- ├── 📄 alternative_solution.sql  # Alternative solution using LAG()
+📂 Problem Name
+ ├── 📄 README.md       # Problem statement, approach, solution
+ ├── 📄 sql_solution.sql  # SQL Solution
+ ├── 📄 pandas_solution.py   # Pandas Solution
+ └── 📄 example_input_output.txt  # Sample input & expected output
 ```
-
----
 
 ## Useful Links
 - [LeetCode Problem](https://leetcode.com/problems/consecutive-numbers/) 🚀
