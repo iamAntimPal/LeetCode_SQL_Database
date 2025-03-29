@@ -1,7 +1,3 @@
-Below is the structured README.md snippet for **LeetCode 626: Exchange Seats**, including the problem statement, example, SQL and Pandas solutions, file structure, and useful links.
-
----
-
 # **626. Exchange Seats**
 
 ## **Problem Statement**
@@ -149,6 +145,3 @@ LeetCode626/
 - [Pandas apply() Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html)
 - [Pandas DataFrame Sorting](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html)
 
----
-
-This structured format provides a comprehensive overview of the problem along with multiple solution approaches. Happy coding! 🚀
