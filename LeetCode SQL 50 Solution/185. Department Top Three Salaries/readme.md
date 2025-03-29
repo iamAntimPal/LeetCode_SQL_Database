@@ -1,14 +1,10 @@
-Here’s the structured format for **LeetCode 185: Department Top Three Salaries**:
-
----
-
 # **185. Department Top Three Salaries**
 
 ## **Problem Statement**
 You are given two tables: `Employee` and `Department`.
 
 ### **Employee Table**
-```
+```rb
 +--------------+---------+
 | Column Name  | Type    |
 +--------------+---------+
@@ -23,7 +19,7 @@ You are given two tables: `Employee` and `Department`.
 - Each row represents an employee with their `id`, `name`, `salary`, and `departmentId`.
 
 ### **Department Table**
-```
+```rb
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -54,7 +50,7 @@ Find employees who have a salary in the **top three unique salaries** in their r
 +----+-------+--------+--------------+
 ```
 #### **Department Table**
-```
+```rb
 +----+-------+
 | id | name  |
 +----+-------+
@@ -63,7 +59,7 @@ Find employees who have a salary in the **top three unique salaries** in their r
 +----+-------+
 ```
 ### **Output:**
-```
+```rb
 +------------+----------+--------+
 | Department | Employee | Salary |
 +------------+----------+--------+
