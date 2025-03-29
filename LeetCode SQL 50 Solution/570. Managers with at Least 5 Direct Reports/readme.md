@@ -1,7 +1,3 @@
-Below is a structured README.md snippet for **LeetCode 570: Managers with at Least 5 Direct Reports**, including the problem statement, examples, solution approaches (with SQL and Pandas), file structure, and useful links.
-
----
-
 # **570. Managers with at Least 5 Direct Reports**
 
 ## **Problem Statement**
@@ -142,6 +138,3 @@ LeetCode570/
 - [SQL DELETE and JOIN Syntax](https://www.w3schools.com/sql/sql_join.asp)
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
 
----
-
-This structured format provides a clear problem overview, multiple solution approaches, and necessary file organization to help contributors quickly understand and navigate the project. Happy coding! 🚀
