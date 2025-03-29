@@ -1,7 +1,3 @@
-Below is the structured README.md snippet for **LeetCode 595: Big Countries**, including the problem statement, example, solution approaches (SQL and Pandas), file structure, and useful links.
-
----
-
 # **595. Big Countries**
 
 ## **Problem Statement**
@@ -137,6 +133,3 @@ LeetCode595/
 - [SQL WHERE Clause](https://www.w3schools.com/sql/sql_where.asp)
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
 
----
-
-This structured format provides a comprehensive overview of the problem along with multiple solution approaches. Happy coding! 🚀
