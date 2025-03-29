@@ -1,7 +1,3 @@
-Below is the structured README.md snippet for **LeetCode 596: Classes More Than 5 Students** including the problem statement, example, solution approaches (SQL and Pandas), file structure, and useful links.
-
----
-
 # **596. Classes More Than 5 Students**
 
 ## **Problem Statement**
@@ -112,6 +108,3 @@ LeetCode596/
 - [SQL GROUP BY and HAVING Clause](https://www.w3schools.com/sql/sql_groupby.asp)
 - [Pandas GroupBy Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)
 
----
-
-This structured format provides a comprehensive overview of the problem along with multiple solution approaches. Happy coding! 🚀
