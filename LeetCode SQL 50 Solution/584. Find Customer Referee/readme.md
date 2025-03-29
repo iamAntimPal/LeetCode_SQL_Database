@@ -1,6 +1,4 @@
-Below is a structured README.md snippet for **LeetCode 584: Find Customer Referee**:
 
----
 
 # **584. Find Customer Referee**
 
@@ -106,6 +104,3 @@ LeetCode584/
 - [SQL WHERE Clause Documentation](https://www.w3schools.com/sql/sql_where.asp)
 - [Pandas Filtering DataFrames](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
 
----
-
-This structured format provides a clear problem overview, multiple solution approaches, file organization, and useful references to help contributors understand and work on the problem. Happy coding! 🚀
