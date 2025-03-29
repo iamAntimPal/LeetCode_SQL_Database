@@ -1,6 +1,3 @@
-Below is the structured README.md snippet for **LeetCode 610: Triangle Judgement**, including the problem statement, example, solution approaches (SQL and Pandas), file structure, and useful links.
-
----
 
 # **610. Triangle Judgement**
 
@@ -110,7 +107,3 @@ LeetCode610/
 - [LeetCode Problem 610](https://leetcode.com/problems/triangle-judgement/)
 - [SQL IF Function](https://www.w3schools.com/sql/func_mysql_if.asp)
 - [Pandas apply() Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html)
-
----
-
-This structured format provides a comprehensive overview of the problem along with multiple solution approaches. Happy coding! 🚀
