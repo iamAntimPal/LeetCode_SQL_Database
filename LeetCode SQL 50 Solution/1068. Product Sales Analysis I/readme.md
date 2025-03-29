@@ -157,12 +157,6 @@ LeetCode1068/
 - [SQL JOIN Documentation](https://www.w3schools.com/sql/sql_join.asp)
 - [Pandas Merge Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html)
 
----
 
-This README now includes:
-✅ **MySQL Query**  
-✅ **Window SQL Query**  
-✅ **Pandas Python Solution**  
-✅ **File Structure & Useful Links**  
 
-🚀 **Now it's a complete guide!** 🚀
+## 🚀 **Now it's a complete guide!** 🚀
