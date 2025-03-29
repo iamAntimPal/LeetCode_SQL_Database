@@ -1,5 +1,3 @@
-
-
 # **584. Find Customer Referee**
 
 ## **Problem Statement**
