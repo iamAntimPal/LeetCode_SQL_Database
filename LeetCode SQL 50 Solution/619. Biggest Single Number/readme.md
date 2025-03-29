@@ -4,7 +4,7 @@
 You are given a table `MyNumbers` that contains integers, which may include duplicates.
 
 ### **MyNumbers Table**
-```
+```rb
 +-------------+------+
 | Column Name | Type |
 +-------------+------+
@@ -23,7 +23,7 @@ Find the **largest single number**. If there is no single number, report `null`.
 ## **Example 1:**
 
 ### **Input:**
-```
+```rb
 MyNumbers table:
 +-----+
 | num |
@@ -40,7 +40,7 @@ MyNumbers table:
 ```
 
 ### **Output:**
-```
+```rb
 +-----+
 | num |
 +-----+
@@ -57,7 +57,7 @@ MyNumbers table:
 ## **Example 2:**
 
 ### **Input:**
-```
+```rb
 MyNumbers table:
 +-----+
 | num |
