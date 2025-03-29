@@ -1,28 +1,12 @@
-/*
-* Order By Clause
-  * ORDER BY order_by_expression  
-    [ COLLATE collation_name ]   
-    [ ASC | DESC ]   
-    [ ,...n ]   
-[ <offset_fetch> ]  
-  
-<offset_fetch> ::=  
-{   
-    OFFSET { integer_constant | offset_row_count_expression } { ROW | ROWS }  
-    [  
-      FETCH { FIRST | NEXT } {integer_constant | fetch_row_count_expression } { ROW | ROWS } ONLY  
-    ]  
-} 
-*/
-
-Create FUNCTION getNthHighestSalary(@N INT) returns INT as 
+# Write your MySQL query statement below.
+CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
-  Return(
-  Select Salary
-  From Employee
-  Gourp By Salary
-  Order By Salary DESC
-  Offset @N-1 rows
-  Fetch First 1 Rows Only
+SET N = N-1;
+  RETURN (
+      SELECT DISTINCT(salary) from Employee order by salary DESC
+      LIMIT 1 OFFSET N
+      
   );
-  End
+END
+
+# pls upvote if you find solution easy to undestand....!! Thanks..!!!
