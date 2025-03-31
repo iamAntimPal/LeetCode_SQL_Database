@@ -1,6 +1,3 @@
-Here’s a well-structured `README.md` for **LeetCode 1729 - Find Followers Count**, formatted for a GitHub repository:
-
-```md
 # 📊 Find Followers Count - LeetCode 1729
 
 ## 📌 Problem Statement
