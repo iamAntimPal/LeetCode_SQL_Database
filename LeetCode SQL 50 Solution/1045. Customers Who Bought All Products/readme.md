@@ -1,6 +1,3 @@
-Here’s the updated README.md, including **Pandas and Window SQL solutions** along with the original **MySQL solution**.
-
----
 
 # **1045. Customers Who Bought All Products**
 
