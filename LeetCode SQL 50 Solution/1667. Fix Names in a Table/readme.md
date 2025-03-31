@@ -1,4 +1,3 @@
-
 # 📝 Fix Names in a Table - LeetCode 1667
 
 ## 📌 Problem Statement
