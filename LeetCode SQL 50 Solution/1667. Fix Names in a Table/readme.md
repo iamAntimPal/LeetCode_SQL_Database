@@ -1,6 +1,4 @@
-Here’s a structured `README.md` for **LeetCode 1667 - Fix Names in a Table**, formatted for a GitHub repository:
 
-```md
 # 📝 Fix Names in a Table - LeetCode 1667
 
 ## 📌 Problem Statement
@@ -81,13 +79,3 @@ ORDER BY user_id;
 - 📖 [LeetCode Problem](https://leetcode.com/problems/fix-names-in-a-table/)
 - 🔍 [SQL CONCAT Function](https://www.w3schools.com/sql/func_mysql_concat.asp)
 - 📝 [MySQL String Functions](https://dev.mysql.com/doc/refman/8.0/en/string-functions.html)
-```
-
-### Features of this `README.md`:
-✅ **Clear problem description with table formatting**  
-✅ **Example with detailed explanation**  
-✅ **SQL solution breakdown for better understanding**  
-✅ **Organized file structure for repository**  
-✅ **Helpful links for further learning**  
-
-Would you like any refinements? 🚀
