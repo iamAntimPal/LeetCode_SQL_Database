@@ -1,6 +1,3 @@
-Here’s a well-structured `README.md` for **LeetCode 1327 - List the Products Ordered in a Period**, formatted for a GitHub repository:  
-
-```md
 # 🛒 List the Products Ordered in a Period - LeetCode 1327
 
 ## 📌 Problem Statement
@@ -158,13 +155,3 @@ def products_ordered(products: pd.DataFrame, orders: pd.DataFrame) -> pd.DataFra
 - 📖 [LeetCode Problem](https://leetcode.com/problems/list-the-products-ordered-in-a-period/)
 - 📚 [SQL `HAVING` Clause](https://www.w3schools.com/sql/sql_having.asp)
 - 🐍 [Pandas GroupBy Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)
-```
-
-### Features of this `README.md`:
-✅ **Detailed problem statement with tables**  
-✅ **Example with step-by-step calculations**  
-✅ **SQL and Pandas solutions with explanations**  
-✅ **File structure for easy organization**  
-✅ **Helpful references for further reading**  
-
-Would you like any modifications? 🚀 
