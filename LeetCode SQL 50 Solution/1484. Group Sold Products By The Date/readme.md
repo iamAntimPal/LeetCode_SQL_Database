@@ -1,6 +1,3 @@
-Here’s a well-structured `README.md` for **LeetCode 1484 - Group Sold Products By The Date**, formatted for a GitHub repository:  
-
-```md
 # 🛍️ Group Sold Products By The Date - LeetCode 1484
 
 ## 📌 Problem Statement
@@ -113,13 +110,3 @@ def group_sold_products(activities: pd.DataFrame) -> pd.DataFrame:
 - 📖 [LeetCode Problem](https://leetcode.com/problems/group-sold-products-by-the-date/)
 - 📚 [SQL `GROUP BY`](https://www.w3schools.com/sql/sql_groupby.asp)
 - 🐍 [Pandas `groupby()` Documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html)
-```
-
-### Features of this `README.md`:
-✅ **Clear problem statement with tables**  
-✅ **Example with step-by-step explanation**  
-✅ **SQL and Pandas solutions with detailed breakdowns**  
-✅ **File structure for easy organization**  
-✅ **Helpful references for further learning**  
-
-Would you like any modifications? 🚀
