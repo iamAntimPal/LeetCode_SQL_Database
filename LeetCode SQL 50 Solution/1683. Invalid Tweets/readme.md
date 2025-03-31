@@ -73,13 +73,3 @@ WHERE LENGTH(content) > 15;
 ## 🔗 Useful Links
 - 📖 [LeetCode Problem](https://leetcode.com/problems/invalid-tweets/)
 - 📝 [MySQL LENGTH Function](https://www.w3schools.com/sql/func_mysql_length.asp)
-```
-
-### Features of this `README.md`:
-✅ **Concise problem description**  
-✅ **Example with detailed explanation**  
-✅ **SQL solution breakdown for clarity**  
-✅ **Organized repository structure**  
-✅ **Useful links for learning**  
-
-Would you like any modifications? 🚀
