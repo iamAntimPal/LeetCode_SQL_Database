@@ -1,6 +1,3 @@
-Here’s a structured `README.md` for **LeetCode 1581 - Customer Who Visited but Did Not Make Any Transactions**, formatted for a GitHub repository:  
-
-```md
 # 🏬 Customer Who Visited but Did Not Make Any Transactions - LeetCode 1581
 
 ## 📌 Problem Statement
