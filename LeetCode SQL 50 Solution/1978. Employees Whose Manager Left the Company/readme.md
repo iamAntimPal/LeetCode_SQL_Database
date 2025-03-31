@@ -1,6 +1,3 @@
-Below is a well-structured `README.md` for **LeetCode 1978 - Employees Whose Manager Left the Company**. It includes a detailed explanation of the SQL solution and a corresponding Python (Pandas) solution.
-
-```md
 # 🏢 Employees Whose Manager Left the Company - LeetCode 1978
 
 ## 📌 Problem Statement
@@ -148,12 +145,3 @@ def employees_with_left_manager(employees: pd.DataFrame) -> pd.DataFrame:
 - 🐍 [Pandas Merge Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html)
 ```
 
----
-
-### Features of this `README.md`:
-- **Clear problem description** with table structure and an example.
-- **SQL solution** with step-by-step explanation.
-- **Python (Pandas) solution** with detailed code and explanation.
-- **Organized file structure** and useful external links for further learning.
-
-Let me know if you need any further modifications or additions!
