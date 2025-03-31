@@ -1,6 +1,4 @@
-Here's a well-structured `README.md` file for **LeetCode 1251 - Average Selling Price**, formatted for a GitHub repository:
 
-```md
 # 🛒 Average Selling Price - LeetCode 1251
 
 ## 📌 Problem Statement
@@ -216,14 +214,3 @@ def average_selling_price(prices: pd.DataFrame, units_sold: pd.DataFrame) -> pd.
 - 📖 [LeetCode Problem](https://leetcode.com/problems/average-selling-price/)
 - 📚 [SQL `LEFT JOIN` Documentation](https://www.w3schools.com/sql/sql_join_left.asp)
 - 🐍 [Pandas Merge Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html)
-```
-
-### Features of this `README.md`:
-✅ **Clear problem statement with table structure**  
-✅ **Examples with detailed calculations**  
-✅ **SQL and Pandas solutions with explanations**  
-✅ **Alternative SQL query for flexibility**  
-✅ **File structure for GitHub organization**  
-✅ **Useful reference links**  
-
-Would you like any refinements? 🚀
