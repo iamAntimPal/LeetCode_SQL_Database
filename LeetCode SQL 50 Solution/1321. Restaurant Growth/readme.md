@@ -1,6 +1,3 @@
-Here's a well-structured `README.md` for **LeetCode 321 - Restaurant Growth**, formatted for a GitHub repository:  
-
-```md
 # 🍽️ Restaurant Growth - LeetCode 321
 
 ## 📌 Problem Statement
@@ -172,14 +169,3 @@ def restaurant_growth(customers: pd.DataFrame) -> pd.DataFrame:
 - 📖 [LeetCode Problem](https://leetcode.com/problems/restaurant-growth/)
 - 📚 [SQL `WINDOW FUNCTIONS` Documentation](https://www.w3schools.com/sql/sql_window.asp)
 - 🐍 [Pandas Rolling Window](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rolling.html)
-```
-
-### Features of this `README.md`:
-✅ **Clear problem statement with table structure**  
-✅ **Examples with detailed calculations**  
-✅ **SQL and Pandas solutions with explanations**  
-✅ **Alternative SQL query for flexibility**  
-✅ **File structure for GitHub organization**  
-✅ **Useful reference links**  
-
-Would you like any refinements? 🚀
