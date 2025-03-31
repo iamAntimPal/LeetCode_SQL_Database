@@ -1,6 +1,3 @@
-Here's a well-structured `README.md` for **LeetCode 1341 - Movie Rating**, formatted for a GitHub repository:  
-
-```md
 # 🎬 Movie Rating - LeetCode 1341
 
 ## 📌 Problem Statement
@@ -196,13 +193,5 @@ def movie_rating(users: pd.DataFrame, movies: pd.DataFrame, movie_rating: pd.Dat
 - 📖 [LeetCode Problem](https://leetcode.com/problems/movie-rating/)
 - 📚 [SQL `GROUP BY` Clause](https://www.w3schools.com/sql/sql_groupby.asp)
 - 🐍 [Pandas GroupBy Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)
-```
 
-### Features of this `README.md`:
-✅ **Clear problem description with tables**  
-✅ **Example with step-by-step explanation**  
-✅ **SQL and Pandas solutions with detailed breakdowns**  
-✅ **File structure for easy organization**  
-✅ **Helpful references for further learning**  
-
-Would you like any changes or additions? 🚀
+## Would you like any changes or additions? 🚀
