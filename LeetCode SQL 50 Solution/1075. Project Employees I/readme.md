@@ -1,6 +1,4 @@
-Below is a structured README.md for **LeetCode 1174: Immediate Food Delivery II** following your requested format.
 
----
 
 # **1174. Immediate Food Delivery II**
 
@@ -186,7 +184,3 @@ LeetCode1174/
 - [SQL Window Functions](https://www.w3schools.com/sql/sql_window.asp)
 - [Pandas GroupBy Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)
 - [Pandas Merge Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html)
-
----
-
-This complete guide provides multiple solution approaches with detailed explanations, file organization, and useful resources. Happy coding! 🚀
