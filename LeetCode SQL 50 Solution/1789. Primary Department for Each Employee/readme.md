@@ -1,6 +1,3 @@
-Below is a well-structured `README.md` for **LeetCode 1789 - Primary Department for Each Employee**, including both the SQL and Pandas (Python) solutions:
-
-```md
 # 🏢 Primary Department for Each Employee - LeetCode 1789
 
 ## 📌 Problem Statement
@@ -129,12 +126,3 @@ def primary_department(employees: pd.DataFrame) -> pd.DataFrame:
 - 📖 [LeetCode Problem](https://leetcode.com/problems/primary-department-for-each-employee/)
 - 🔍 [MySQL UNION Operator](https://www.w3schools.com/sql/sql_union.asp)
 - 🐍 [Pandas GroupBy Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)
-```
-
-This `README.md` includes:
-- A **clear problem statement** with table structure and example.
-- A detailed **SQL solution** with an explanation.
-- A detailed **Pandas (Python) solution** with an explanation.
-- An organized **file structure** and helpful external links.
-
-Let me know if you need any modifications!
