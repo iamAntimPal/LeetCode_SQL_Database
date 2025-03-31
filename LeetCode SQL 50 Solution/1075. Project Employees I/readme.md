@@ -1,6 +1,4 @@
-Here's a well-formatted `README.md` file for your GitHub repository with the SQL solutions:
 
-```md
 # 🏆 Project Employees I - LeetCode 1075
 
 ## 📌 Problem Statement
@@ -127,14 +125,7 @@ def project_average_experience(project: pd.DataFrame, employee: pd.DataFrame) ->
 - 📖 [LeetCode Problem](https://leetcode.com/problems/project-employees-i/)
 - 📚 [SQL Joins Explanation](https://www.w3schools.com/sql/sql_join.asp)
 - 🐍 [Pandas Documentation](https://pandas.pydata.org/docs/)
-```
 
-This README provides:
-- A **clear problem statement**
-- **Input and output tables**
-- **Multiple SQL solutions with explanations**
-- **A Python Pandas solution**
-- **File structure**
-- **Useful links**
+---
 
-Let me know if you need any modifications! 🚀
+## Let me know if you need any modifications! 🚀
