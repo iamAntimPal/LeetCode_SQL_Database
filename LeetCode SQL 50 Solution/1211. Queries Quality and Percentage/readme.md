@@ -1,6 +1,3 @@
-Here's a structured `README.md` file for **LeetCode 1211 - Queries Quality and Percentage**, formatted for a GitHub repository:
-
-```md
 # 📊 Queries Quality and Percentage - LeetCode 1211
 
 ## 📌 Problem Statement
@@ -179,14 +176,5 @@ def queries_quality(queries: pd.DataFrame) -> pd.DataFrame:
 - 📖 [LeetCode Problem](https://leetcode.com/problems/queries-quality-and-percentage/)
 - 📚 [SQL `GROUP BY` Documentation](https://www.w3schools.com/sql/sql_groupby.asp)
 - 🐍 [Pandas GroupBy Documentation](https://pandas.pydata.org/docs/reference/groupby.html)
-```
 
-### Features of this `README.md`:
-✅ **Clear problem statement with table structure**  
-✅ **Examples with detailed calculations**  
-✅ **SQL and Pandas solutions with explanations**  
-✅ **Alternative SQL query for flexibility**  
-✅ **File structure for GitHub organization**  
-✅ **Useful reference links**  
-
-Let me know if you'd like any modifications! 🚀
+## Let me know if you'd like any modifications! 🚀
