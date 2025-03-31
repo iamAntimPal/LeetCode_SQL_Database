@@ -1,6 +1,4 @@
-Here's the **README.md** file including **MySQL, Window SQL, and Pandas solutions** for **LeetCode 1164 - Product Price at a Given Date**.
 
----
 
 # **1164. Product Price at a Given Date**
 
