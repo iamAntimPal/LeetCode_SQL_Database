@@ -50,5 +50,5 @@ Feel free to fork this repository, suggest improvements, or submit your own solu
 <img height="200px" src="./img/sql50.png">
 
 ### Progress
-🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 75%
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100%
 
