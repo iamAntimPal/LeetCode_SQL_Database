@@ -1,6 +1,3 @@
-Here’s a well-structured `README.md` for **LeetCode 1757 - Recyclable and Low Fat Products**, formatted for a GitHub repository:
-
-```md
 # ♻️ Recyclable and Low Fat Products - LeetCode 1757
 
 ## 📌 Problem Statement
@@ -101,13 +98,3 @@ def recyclable_low_fat_products(products: pd.DataFrame) -> pd.DataFrame:
 - 📖 [LeetCode Problem](https://leetcode.com/problems/recyclable-and-low-fat-products/)
 - 🔍 [MySQL WHERE Clause](https://www.w3schools.com/sql/sql_where.asp)
 - 🐍 [Pandas DataFrame Filtering](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html)
-```
-
-### Features of this `README.md`:
-✅ **Clear problem description with table structure**  
-✅ **Example with detailed explanation**  
-✅ **SQL and Python (Pandas) solutions with breakdown**  
-✅ **Organized file structure for repository**  
-✅ **Helpful links for further learning**
-
-Let me know if you need any modifications!
