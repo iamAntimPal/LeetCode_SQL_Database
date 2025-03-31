@@ -71,7 +71,6 @@ Output:
 Explanation: The average experience years for the first project is (3 + 2 + 1) / 3 = 2.00 and for the second project is (3 + 2) / 2 = 2.50
 
 '''SQL
-
 # Write your MySQL query statement below
 select project_id , round(avg(experience_years), 2) as average_years
 from project as p
