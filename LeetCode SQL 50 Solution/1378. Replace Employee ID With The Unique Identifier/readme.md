@@ -1,6 +1,4 @@
-Here’s a well-structured `README.md` for **LeetCode 1378 - Replace Employee ID With The Unique Identifier**, formatted for a GitHub repository:  
 
-```md
 # 🏢 Replace Employee ID With The Unique Identifier - LeetCode 1378
 
 ## 📌 Problem Statement
@@ -142,13 +140,5 @@ def replace_employee_id(employees: pd.DataFrame, employee_uni: pd.DataFrame) -> 
 - 📖 [LeetCode Problem](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)
 - 📚 [SQL `LEFT JOIN`](https://www.w3schools.com/sql/sql_join_left.asp)
 - 🐍 [Pandas Merge Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html)
-```
 
-### Features of this `README.md`:
-✅ **Clear problem description with tables**  
-✅ **Example with step-by-step explanation**  
-✅ **SQL and Pandas solutions with detailed breakdowns**  
-✅ **File structure for easy organization**  
-✅ **Helpful references for further learning**  
-
-Would you like any modifications? 🚀
+## Would you like any modifications? 🚀
