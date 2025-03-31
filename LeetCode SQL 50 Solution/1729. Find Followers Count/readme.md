@@ -1,3 +1,6 @@
+Here's an improved `README.md` with a **Python (Pandas) solution** alongside the **SQL solution**:  
+
+```md
 # 📊 Find Followers Count - LeetCode 1729
 
 ## 📌 Problem Statement
@@ -64,12 +67,36 @@ ORDER BY user_id;
 
 ---
 
+## 🐍 Python (Pandas) Solution
+
+### ✅ **Approach:**
+1. Use `groupby("user_id")` to count followers for each user.
+2. Use `reset_index(name="followers_count")` to format the result properly.
+3. Sort the result by `user_id`.
+
+```python
+import pandas as pd
+
+def find_followers_count(followers: pd.DataFrame) -> pd.DataFrame:
+    result = (
+        followers.groupby("user_id")["follower_id"]
+        .count()
+        .reset_index(name="followers_count")
+        .sort_values("user_id")
+    )
+    return result
+```
+
+---
+
 ## 📁 File Structure
 ```
 📂 Find-Followers-Count
 │── 📜 README.md
 │── 📜 solution.sql
+│── 📜 solution.py
 │── 📜 test_cases.sql
+│── 📜 test_cases.csv
 ```
 
 ---
@@ -77,3 +104,14 @@ ORDER BY user_id;
 ## 🔗 Useful Links
 - 📖 [LeetCode Problem](https://leetcode.com/problems/find-followers-count/)
 - 📝 [MySQL COUNT Function](https://www.w3schools.com/sql/sql_count.asp)
+- 🐍 [Pandas GroupBy](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html)
+```
+
+---
+
+### 🚀 **What's New in this Version?**
+✅ **Added Python (Pandas) Solution**  
+✅ **Structured File Organization**  
+✅ **Includes Helpful Links for Learning**  
+
+Would you like any further enhancements? 🚀
