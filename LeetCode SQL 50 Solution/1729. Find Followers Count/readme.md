@@ -1,6 +1,3 @@
-Here's an improved `README.md` with a **Python (Pandas) solution** alongside the **SQL solution**:  
-
-```md
 # 📊 Find Followers Count - LeetCode 1729
 
 ## 📌 Problem Statement
@@ -107,11 +104,3 @@ def find_followers_count(followers: pd.DataFrame) -> pd.DataFrame:
 - 🐍 [Pandas GroupBy](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html)
 ```
 
----
-
-### 🚀 **What's New in this Version?**
-✅ **Added Python (Pandas) Solution**  
-✅ **Structured File Organization**  
-✅ **Includes Helpful Links for Learning**  
-
-Would you like any further enhancements? 🚀
