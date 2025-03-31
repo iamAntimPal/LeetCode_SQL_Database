@@ -1,6 +1,3 @@
-Below is a well-structured `README.md` for **LeetCode 2356 - Number of Unique Subjects Taught by Each Teacher**, which includes both the SQL solution and a Python (Pandas) solution.
-
-```md
 # 📚 Number of Unique Subjects Taught by Each Teacher - LeetCode 2356
 
 ## 📌 Problem Statement
