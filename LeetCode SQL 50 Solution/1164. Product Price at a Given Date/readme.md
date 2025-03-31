@@ -86,18 +86,25 @@ FROM
 
 ### **2️⃣ Window Function (SQL) Solution**
 ```sql
-WITH RankedPrices AS (
-    SELECT 
-        product_id, 
-        new_price AS price, 
-        change_date,
-        RANK() OVER (PARTITION BY product_id ORDER BY change_date DESC) AS rnk
-    FROM Products
-    WHERE change_date <= '2019-08-16'
-)
-SELECT p.product_id, COALESCE(rp.price, 10) AS price
-FROM (SELECT DISTINCT product_id FROM Products) p
-LEFT JOIN RankedPrices rp ON p.product_id = rp.product_id AND rp.rnk = 1;
+# Write your MySQL query statement below
+# Write your MySQL query statement below
+WITH
+    T AS (SELECT DISTINCT product_id FROM Products),
+    P AS (
+        SELECT product_id, new_price AS price
+        FROM Products
+        WHERE
+            (product_id, change_date) IN (
+                SELECT product_id, MAX(change_date) AS change_date
+                FROM Products
+                WHERE change_date <= '2019-08-16'
+                GROUP BY 1
+            )
+    )
+SELECT product_id, IFNULL(price, 10) AS price
+FROM
+    T
+    LEFT JOIN P USING (product_id);
 ```
 #### **Explanation:**
 1. **`RANK() OVER (PARTITION BY product_id ORDER BY change_date DESC)`**  
