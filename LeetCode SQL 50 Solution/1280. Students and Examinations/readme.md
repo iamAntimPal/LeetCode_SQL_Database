@@ -1,6 +1,3 @@
-Here is the well-structured `README.md` file for **LeetCode 1204 - Find the Number of Times Each Student Attended Each Exam**, formatted for a GitHub repository:
-
-```md
 # 🎓 Find the Number of Times Each Student Attended Each Exam - LeetCode 1204
 
 ## 📌 Problem Statement
@@ -179,14 +176,3 @@ def student_exam_attendance(students: pd.DataFrame, subjects: pd.DataFrame, exam
 - 📖 [LeetCode Problem](https://leetcode.com/problems/find-the-number-of-times-each-student-attended-each-exam/)
 - 📚 [SQL `CROSS JOIN` Documentation](https://www.w3schools.com/sql/sql_join_cross.asp)
 - 🐍 [Pandas Merge Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html)
-```
-
-### Features of this `README.md`:
-✅ **Clear problem statement with table structure**  
-✅ **Examples with detailed calculations**  
-✅ **SQL and Pandas solutions with explanations**  
-✅ **Alternative SQL query for flexibility**  
-✅ **File structure for GitHub organization**  
-✅ **Useful reference links**  
-
-Would you like any refinements? 🚀
