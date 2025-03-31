@@ -1,6 +1,3 @@
-Here's a well-structured `README.md` file for **LeetCode 1204 - Last Person to Fit in the Bus**, formatted for a GitHub repository:
-
-```md
 # 🚌 Last Person to Fit in the Bus - LeetCode 1204
 
 ## 📌 Problem Statement
@@ -148,14 +145,5 @@ def last_person_to_fit(queue: pd.DataFrame) -> pd.DataFrame:
 - 📖 [LeetCode Problem](https://leetcode.com/problems/last-person-to-fit-in-the-bus/)
 - 📚 [SQL `GROUP BY` Clause](https://www.w3schools.com/sql/sql_groupby.asp)
 - 🐍 [Pandas cumsum() Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.cumsum.html)
-```
 
-This README includes:
-- **Problem statement**
-- **Example input and output**
-- **SQL solution with explanations**
-- **Pandas solution in Python**
-- **File structure for GitHub**
-- **Useful links**
-
-Let me know if you need any modifications! 🚀
+## Let me know if you need any modifications! 🚀
