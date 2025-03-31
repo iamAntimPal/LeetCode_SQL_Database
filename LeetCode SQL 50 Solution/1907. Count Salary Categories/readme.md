@@ -1,6 +1,3 @@
-Below is a well-structured `README.md` for **LeetCode 907 - Count Salary Categories**. It includes detailed explanations for the SQL solution using CTEs and a corresponding Pandas solution.
-
-```md
 # 💰 Count Salary Categories - LeetCode 907
 
 ## 📌 Problem Statement
@@ -185,13 +182,3 @@ def count_salary_categories(accounts: pd.DataFrame) -> pd.DataFrame:
 - 🐍 [Pandas GroupBy Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)
 ```
 
----
-
-### Features of this `README.md`:
-- **Clear Problem Statement** with table structure and detailed example.
-- **SQL Solution** with detailed explanation using CTEs and LEFT JOIN.
-- **Python (Pandas) Solution** with step-by-step categorization and merging.
-- **Organized File Structure** for repository management.
-- **Helpful External Links** for further learning.
-
-Let me know if you need any modifications or additional details!
