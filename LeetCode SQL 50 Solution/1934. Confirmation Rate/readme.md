@@ -1,6 +1,3 @@
-Below is a well-structured `README.md` file for **LeetCode 1934 - Confirmation Rate**, including detailed explanations for the SQL solution using both the shorthand and CASE statement approaches, along with a Pandas (Python) solution.
-
-```md
 # 📩 Confirmation Rate - LeetCode 1934
 
 ## 📌 Problem Statement
@@ -174,14 +171,3 @@ def confirmation_rate(signups: pd.DataFrame, confirmations: pd.DataFrame) -> pd.
 - 📝 [MySQL IFNULL Function](https://www.w3schools.com/sql/func_mysql_ifnull.asp)
 - 🔍 [MySQL ROUND Function](https://www.w3schools.com/sql/func_mysql_round.asp)
 - 🐍 [Pandas GroupBy Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)
-```
-
----
-
-### Features of this `README.md`:
-- **Clear Problem Statement** with detailed table structures and examples.
-- **SQL Solutions** with both a shorthand boolean expression and a CASE statement approach, complete with explanations.
-- **Python (Pandas) Solution** with step-by-step instructions on merging, grouping, and calculating the confirmation rate.
-- **Organized File Structure** and helpful external links for further learning.
-
-Let me know if you need any further modifications or additions!
