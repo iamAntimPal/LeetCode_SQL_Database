@@ -1,6 +1,4 @@
-Below is a well-structured `README.md` that documents the database schema, sample data, and queries for the provided SQL code. This file can be added to your repository for clarity and organization.
 
-```md
 # Prosnal Database Example
 
 This repository contains SQL scripts for creating and populating a sample database called `prosnal_database`. The database includes multiple tables and queries demonstrating joins and calculations. The following sections describe the database schema, sample data insertion, and example queries.
