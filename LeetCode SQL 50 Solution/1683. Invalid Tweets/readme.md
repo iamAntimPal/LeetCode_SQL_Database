@@ -1,6 +1,3 @@
-Here's a well-structured `README.md` for **LeetCode 1683 - Invalid Tweets**, formatted for a GitHub repository:
-
-```md
 # 🐦 Invalid Tweets - LeetCode 1683
 
 ## 📌 Problem Statement
