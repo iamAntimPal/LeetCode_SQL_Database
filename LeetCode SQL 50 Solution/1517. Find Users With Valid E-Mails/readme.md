@@ -1,6 +1,3 @@
-Here’s a well-structured `README.md` for **LeetCode 1517 - Find Users With Valid E-Mails**, formatted for a GitHub repository:  
-
-```md
 # 📩 Find Users With Valid E-Mails - LeetCode 1517
 
 ## 📌 Problem Statement
@@ -96,13 +93,5 @@ WHERE REGEXP_LIKE(mail, '^[A-Za-z]+[A-Za-z0-9_.-]*@leetcode\\.com$');
 - 📖 [LeetCode Problem](https://leetcode.com/problems/find-users-with-valid-e-mails/)
 - 🔍 [MySQL REGEXP_LIKE Documentation](https://dev.mysql.com/doc/refman/8.0/en/regexp.html)
 - 📝 [SQL Regular Expressions Cheatsheet](https://www.w3schools.com/sql/sql_regex.asp)
-```
-
-### Features of this `README.md`:
-✅ **Clear problem statement with tables**  
-✅ **Example with detailed explanation**  
-✅ **SQL solution breakdown**  
-✅ **File structure for easy organization**  
-✅ **Helpful links for further learning**  
-
-Would you like any modifications? 🚀
+her learning**  
+## Would you like any modifications? 🚀
