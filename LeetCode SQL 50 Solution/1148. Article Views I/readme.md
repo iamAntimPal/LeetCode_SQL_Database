@@ -1,6 +1,3 @@
-Here's a well-structured `README.md` file for **LeetCode 1148 - Article Views I** with SQL and Pandas solutions:
-
-```md
 # 📰 Article Views I - LeetCode 1148
 
 ## 📌 Problem Statement
@@ -118,8 +115,5 @@ def authors_who_viewed_own_articles(views: pd.DataFrame) -> pd.DataFrame:
 - 📖 [LeetCode Problem](https://leetcode.com/problems/article-views-i/)
 - 📚 [SQL DISTINCT vs GROUP BY](https://www.w3schools.com/sql/sql_distinct.asp)
 - 🐍 [Pandas Unique Function](https://pandas.pydata.org/docs/reference/api/pandas.Series.unique.html)
-```
 
-
-
-Let me know if you need any changes! 🚀
+## Let me know if you need any changes! 🚀
