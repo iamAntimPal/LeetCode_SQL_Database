@@ -1,6 +1,3 @@
-Here’s a structured `README.md` for **LeetCode 1527 - Patients With a Condition**, formatted for a GitHub repository:  
-
-```md
 # 🏥 Patients With a Condition - LeetCode 1527
 
 ## 📌 Problem Statement
