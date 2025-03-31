@@ -1,6 +1,3 @@
-Here’s a well-structured `README.md` for **LeetCode 1731 - The Number of Employees Which Report to Each Employee**, formatted for a GitHub repository:
-
-```md
 # 👥 The Number of Employees Which Report to Each Employee - LeetCode 1731
 
 ## 📌 Problem Statement
@@ -135,14 +132,3 @@ def employees_reporting(employees: pd.DataFrame) -> pd.DataFrame:
 - 📖 [LeetCode Problem](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/)
 - 🔍 [MySQL GROUP BY Documentation](https://www.w3schools.com/sql/sql_groupby.asp)
 - 🐍 [Pandas GroupBy Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)
-```
-
-### Features of this `README.md`:
-✅ **Clear problem description with table structure**  
-✅ **Example with detailed explanation**  
-✅ **SQL solution with breakdown**  
-✅ **Python (Pandas) solution with code and explanation**  
-✅ **Organized repository structure**  
-✅ **Helpful links for further learning**  
-
-Would you like any further modifications?
