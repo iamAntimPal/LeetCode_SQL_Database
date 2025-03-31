@@ -1,6 +1,4 @@
-Here’s a well-structured `README.md` file for **LeetCode 1141 - User Activity for the Past 30 Days I** with SQL and Pandas solutions:
 
-```md
 # 📊 User Activity for the Past 30 Days I - LeetCode 1141
 
 ## 📌 Problem Statement
@@ -133,14 +131,5 @@ def daily_active_users(activity: pd.DataFrame) -> pd.DataFrame:
 - 📖 [LeetCode Problem](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/)
 - 📚 [SQL Date Functions](https://www.w3schools.com/sql/sql_dates.asp)
 - 🐍 [Pandas Documentation](https://pandas.pydata.org/docs/)
-```
 
-This README includes:
-- **Clear problem statement**
-- **Input and output tables**
-- **Multiple SQL solutions with explanations**
-- **Pandas solution in Python**
-- **File structure for a clean GitHub repo**
-- **Useful links**
-
-Let me know if you need any changes! 🚀
+## Let me know if you need any changes! 🚀
