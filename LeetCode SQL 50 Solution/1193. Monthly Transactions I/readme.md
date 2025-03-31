@@ -1,6 +1,3 @@
-Here's a well-structured `README.md` file for **LeetCode 1193 - Monthly Transactions I**, formatted for a GitHub repository:
-
-```md
 # 🏦 Monthly Transactions I - LeetCode 1193
 
 ## 📌 Problem Statement
@@ -125,14 +122,5 @@ def monthly_transactions(transactions: pd.DataFrame) -> pd.DataFrame:
 - 📖 [LeetCode Problem](https://leetcode.com/problems/monthly-transactions-i/)
 - 📚 [SQL `GROUP BY` Clause](https://www.w3schools.com/sql/sql_groupby.asp)
 - 🐍 [Pandas GroupBy Documentation](https://pandas.pydata.org/docs/reference/groupby.html)
-```
 
-This README includes:
-- **Problem statement**
-- **Example input and output**
-- **SQL solution with explanations**
-- **Pandas solution in Python**
-- **File structure for GitHub**
-- **Useful links**
-
-Let me know if you need any modifications! 🚀
+## Let me know if you need any modifications! 🚀
