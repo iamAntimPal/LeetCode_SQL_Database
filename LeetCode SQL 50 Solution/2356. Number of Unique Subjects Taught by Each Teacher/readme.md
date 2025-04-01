@@ -8,7 +8,8 @@ Note that the table can have multiple rows for the same subject taught in differ
 
 Return the result table in **any order**.
 
----
+------
+
 
 ## 📊 Table Structure
 
