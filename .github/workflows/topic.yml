@@ -23,7 +23,7 @@ jobs:
               #  - read:packages (for some packages related data)
               #  - repo          (optional, if you want to include private repositories)
               filename: SVG/followup.svg
-              token: ${{ secrets.METRICS_TOKEN }}
+              token: ${{ secrets.GH_METRICS_TOKEN }}
 
               # Options
               user: iamAntimPal
