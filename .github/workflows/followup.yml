@@ -1,0 +1,55 @@
+name: Generate Followup Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"         # 5:30 AM IST
+    - cron: "30 5 * * *"        # 10:00 AM IST
+    - cron: "30 11 * * *"       # 4:00 PM IST
+  workflow_dispatch:
+
+jobs:
+  generate-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y docker.io jq
+
+      - name: Generate Metrics SVG
+        uses: lowlighter/metrics@latest
+        with:
+          filename: SVG/followup.svg
+          token: ${{ secrets.GH_METRICS_TOKEN }}
+          user: iamAntimPal
+          base: ""
+          template: classic
+          config_timezone: Asia/Kolkata
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
+          plugin_followup_indepth: yes
+          plugin_followup_archived: no
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b update-followup-metrics
+          git add SVG/followup.svg
+          git commit -m "Update followup.svg [skip ci]"
+          git push origin update-followup-metrics
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GH_METRICS_TOKEN }}
+          branch: update-followup-metrics
+          title: "chore: update followup metrics"
+          body: "Auto-generated followup metrics SVG"
